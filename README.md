@@ -1,1 +1,1 @@
-# journalapplication
+# journalapp.
