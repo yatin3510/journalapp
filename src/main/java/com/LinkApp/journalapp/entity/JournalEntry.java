@@ -9,11 +9,13 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import lombok.Data;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 
 @Document(collection = "journal_entries")
-@Data   
+@Data 
+@NoArgsConstructor  
 public class JournalEntry {
 
     @Id
